@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=e">
+    <meta http-equiv="X-UA-Compatible" content="ie=ege">
+    <title>Prakash Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/pic.jpg') no-repeat fixed;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+        /* border: 2px solid green;/ */
+    }
+    .left img{
+        width: 50px;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+
+    .left div{
+        margin-top: 5px;
+        margin-left: 5px;
+        text-align: center;
+        color: #fff;
+    }
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 33px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(104, 206, 197);
+    }
+    .btn{
+        
+        margin: 0px 9px;
+        
+        background-color:rgb(60, 65, 65);
+        color: white;
+        padding: 3px 14px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(37, 41, 38);
+        color: #fff;
+    }
+
+    .container{
+        border: 2px solid white;
+        margin: 80px 80px;
+        padding: 75px;
+        width: 40%;
+        border-radius: 28px;
+    }
+
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px; 
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .container button{
+        display: block;
+        width: 74%;
+        margin: auto;
+    }
+    .form-group btn
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div>Be Fit</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+
+            </ul>
+
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <buttom class="btn">Call Us Now</buttom>
+            <buttom class="btn">Email us</buttom>
+        </div>
+
+
+    </header>
+    <div class="container">
+        <h1>Join the best Gym of Burdawn Now</h1>
+        <form>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
